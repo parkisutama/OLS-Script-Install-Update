@@ -15,6 +15,8 @@ echo now I am ROOT HAHAHA chmod +x install.sh so we can execute the script
 chmod +x install.sh
 echo we will start to install please note the user and pass for admin, we can change it later!
 ./install.sh
+/usr/local/lsws/bin/lswsctrl start
+/usr/local/lsws/bin/lswsctrl status
 echo now we back to your user account, please input your username
 read $username
 sudo su $username
